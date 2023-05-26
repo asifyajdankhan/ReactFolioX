@@ -21,7 +21,7 @@ const HeroStyles = styled.div`
     font-size: 2rem;
     margin-bottom: -4rem;
     position: relative;
-    margin-top: 5rem;
+    margin-top: 8rem;
     span {
       display: inline-block;
       width: 100%;
@@ -97,8 +97,9 @@ const HeroStyles = styled.div`
       min-height: 750px;
     }
     .hero__heading {
-      font-size: 1.4rrem;
-      margin-bottom:-3rem .hero__name {
+      font-size: 1.4rem;
+      margin-bottom: -3rem;
+      .hero__name {
         font-size: 4.5rem;
       }
     }
@@ -110,8 +111,8 @@ const HeroStyles = styled.div`
     }
     .hero__social {
       left: 0px;
-      bottom: 15%;
-      width: 20px;
+      bottom: -15%;
+      // width: 20px;
       .hero__social__indiacator {
         width: 20px;
         p {

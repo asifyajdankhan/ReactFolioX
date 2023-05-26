@@ -5,7 +5,7 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Home from './Pages/Home';
 import Projects from './Pages/Projects';
-import HeroSection from './Components/HeroSection';
+// import HeroSection from './Components/HeroSection';
 
 export default function App() {
   return (
@@ -16,17 +16,17 @@ export default function App() {
           <Route path="/about">
             <About />
           </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
           <Route path="/contact">
             <Contact />
+          </Route>
+          <Route path="/projects">
+            <Projects />
           </Route>
           <Route path="/">
             <Home />
           </Route>
         </Switch>
-        <HeroSection />
+        {/* <HeroSection /> */}
       </Router>
     </>
   );

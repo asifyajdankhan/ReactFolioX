@@ -34,6 +34,7 @@ const NavMenuStyles = styled.div`
       outline: none;
     }
     .active {
+      color: var(--white);
     }
     a:hover {
       color: var(--white);
@@ -51,7 +52,7 @@ const NavMenuStyles = styled.div`
       pointer-events: none;
     }
   }
-  .closeNavIcon {
+  .navItems .closeNavIcon {
     display: none;
   }
   @media only screen and (max-width: 768px) {

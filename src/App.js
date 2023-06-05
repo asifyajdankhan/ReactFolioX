@@ -7,7 +7,6 @@ import Contact from './Pages/Contact';
 import Home from './Pages/Home';
 import Projects from './Pages/Projects';
 import Footer from './Components/Footer';
-// import ScrollToTop from './Components/ScrollToTop';
 
 export default function App() {
   return (

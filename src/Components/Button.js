@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import resumePDF from '../assets/images/Resume.pdf.pdf';
 
 const ButtonStyle = styled.div`
   margin-top: 2rem;
@@ -26,9 +27,17 @@ export default function Button({
   btnText = 'test',
   outline = false,
 }) {
+  const handleDownload = () => {
+    if (btnText === 'Download CV') {
+      const link = document.createElement('a');
+      link.href = resumePDF;
+      link.download = 'resumePDF';
+      link.click();
+    }
+  };
   return (
     <ButtonStyle outline={outline} className="button-wrapper">
-      <Link className="button" to={btnLink}>
+      <Link className="button" to={btnLink} onClick={handleDownload}>
         {btnText}
       </Link>
     </ButtonStyle>

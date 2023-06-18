@@ -34,12 +34,20 @@ const ProjectItemStyles = styled.div`
       height: 350px;
     }
   }
+  .projectButton {
+    display: inline-block;
+    font-size: 1.8rem;
+    text-decoration: underline;
+    margin: 2rem 0;
+    color: royalblue;
+  }
 `;
 
 export default function ProjectItem({
   img = projectImg,
   title = 'Project Name',
   desc = 'lorem ipsum dolar sit',
+  link,
 }) {
   return (
     <ProjectItemStyles>
@@ -51,6 +59,16 @@ export default function ProjectItem({
           <h3 className="projectItem__title">{title}</h3>
         </Link>
         <p className="projectItem__desc">{desc}</p>
+        {link && (
+          <a
+            className="projectButton"
+            href={link}
+            target="_blank"
+            rel="noreferrer"
+          >
+            open project
+          </a>
+        )}
       </div>
     </ProjectItemStyles>
   );

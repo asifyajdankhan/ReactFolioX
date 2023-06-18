@@ -8,33 +8,38 @@ import CavinImg from '../images/cavinimg.jpg';
 const projects = [
   {
     id: uuidv4(),
-    name: 'U Tracker',
-    desc: 'An application to track your all data from one place. I developed the website and the mobile app',
-    img: UTrackerImg,
-  },
-  {
-    id: uuidv4(),
-    name: 'Green CTG',
-    desc: 'An app to help people to get an overview of how they can make the city beautiful.',
-    img: GreenCtgImg,
-  },
-  {
-    id: uuidv4(),
-    name: 'Coin Tracker',
-    desc: 'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
-    img: CoinTrackerImg,
-  },
-  {
-    id: uuidv4(),
-    name: "Cavin's Portfolio",
-    desc: 'A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.',
+    name: 'Asif Khan Portfolio',
+    desc: 'A portfolio for Asif Khan. A developer from New Delhi. The portfolio is made using ReactJs.',
     img: CavinImg,
+    link: 'https://www.google.com',
   },
   {
     id: uuidv4(),
-    name: 'Tracking Soft',
-    desc: 'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
+    name: 'To Do Apps',
+    desc: 'Users can create a list of items they need to accomplish, set due dates, add descriptions or notes, and categorize tasks based on different criteria.',
+    img: UTrackerImg,
+    link: 'https://todoappyajdan.netlify.app/',
+  },
+  {
+    id: uuidv4(),
+    name: 'Hexaware Clone UI',
+    desc: 'I made this website for learning new thigs from this landing pages, just like fade Animated.',
+    img: GreenCtgImg,
+    link: 'https://hexacloneui.netlify.app/',
+  },
+  {
+    id: uuidv4(),
+    name: 'Bensik UI Page',
+    desc: 'An application to track your all data from one place. I developed the website.',
+    img: CoinTrackerImg,
+    link: 'https://bensiklandingpage.netlify.app/',
+  },
+  {
+    id: uuidv4(),
+    name: 'Bridge Landing Page',
+    desc: 'A Web Application can check the Scroll Button and SmoothCard Hover',
     img: ProjectImg,
+    link: 'https://bridgelandingpage.netlify.app/',
   },
 ];
 

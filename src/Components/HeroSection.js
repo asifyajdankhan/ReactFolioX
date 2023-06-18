@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import HeroImg from '../assets/images/hero.png';
+import HeroImg from '../assets/images/HeroSectionImageAsif.jpg';
 import PText from './PText';
 import Button from './Button';
 import SocialMediaArray from '../assets/images/social-media-arrow.svg';
@@ -33,11 +33,12 @@ const HeroStyles = styled.div`
     }
   }
   .hero__img {
-    max-width: 900px;
+    max-width: 1090px;
     width: 100%;
-    height: 600px;
+    height: 620px;
     margin: 0 auto;
     border: 2px solid var(--gray-1);
+    background: rgb(105, 105, 105);
   }
   .hero__info {
     margin-top: -18rem;
@@ -134,7 +135,7 @@ const HeroStyles = styled.div`
       }
     }
     .hero__scrollDown {
-      right: 0;
+      right: 15px;
       width: 20px;
       gap: 1rem;
       p {

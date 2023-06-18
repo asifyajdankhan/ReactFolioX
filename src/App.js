@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import SmoothScrollbar from 'react-smooth-scrollbar';
+import SmoothScrollbar from './Components/SmoothScrollbar';
 import NavMenu from './Components/NavMenu';
 import About from './Pages/About';
 import Contact from './Pages/Contact';

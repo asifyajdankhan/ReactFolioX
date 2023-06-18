@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import { MdClose, MdMenu } from 'react-icons/md';
-// import styled from 'styled-components';
 
 const NavMenuStyles = styled.div`
   position: fixed;

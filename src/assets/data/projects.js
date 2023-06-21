@@ -11,7 +11,7 @@ const projects = [
     name: 'Asif Khan Portfolio',
     desc: 'A portfolio for Asif Khan. A developer from New Delhi. The portfolio is made using ReactJs.',
     img: CavinImg,
-    link: 'https://www.google.com',
+    link: 'https://asifkhanportfolio.netlify.app/',
   },
   {
     id: uuidv4(),

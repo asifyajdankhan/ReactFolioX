@@ -3,14 +3,14 @@ import ProjectImg from '../images/projectImg.png';
 import UTrackerImg from '../images/utracker.jpg';
 import GreenCtgImg from '../images/greenctg.jpg';
 import CoinTrackerImg from '../images/cointracker.jpg';
-import CavinImg from '../images/cavinimg.jpg';
+import asifportfolioImg from '../images/asifportfolio.jpg';
 
 const projects = [
   {
     id: uuidv4(),
     name: 'Asif Khan Portfolio',
     desc: 'A portfolio for Asif Khan. A developer from New Delhi. The portfolio is made using ReactJs.',
-    img: CavinImg,
+    img: asifportfolioImg,
     link: 'https://asifkhanportfolio.netlify.app/',
   },
   {

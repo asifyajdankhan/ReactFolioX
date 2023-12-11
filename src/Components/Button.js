@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import resumePDF from '../assets/images/Asif-Resume.pdf';
+import resumePDF from '../assets/images/Md-Asif-Khan-Resume.pdf';
 
 const ButtonStyle = styled.div`
   margin-top: 2rem;

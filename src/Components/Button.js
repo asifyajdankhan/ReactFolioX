@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import resumePDF from '../assets/images/Md-Asif-Khan-Resume.pdf';
+import resumePDF from '../assets/images/Md-Asif-Khan-Resume.pdf.pdf';
 
 const ButtonStyle = styled.div`
   margin-top: 2rem;
@@ -31,7 +31,7 @@ export default function Button({
     if (btnText === 'Download CV') {
       const link = document.createElement('a');
       link.href = resumePDF;
-      link.download = 'resumePDF';
+      link.download = 'Md-Asif-Khan-Resume';
       link.click();
     }
   };
